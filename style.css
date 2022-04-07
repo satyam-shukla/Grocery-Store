@@ -1,0 +1,500 @@
+@font-face {
+    font-family: sfProDisplayRegular;
+    src: url('./font/SFPRODISPLAYREGULAR.OTF');
+}
+@font-face {
+    font-family: blacksapro;
+    src: url('./font/SFPRODISPLAYBLACKITALIC.OTF');
+}
+@font-face {
+    font-family: lightfspro;
+    src: url(./font/SFPRODISPLAYULTRALIGHTITALIC.OTF);
+}
+@font-face {
+    font-family: semibold;
+    src: url('./font/SFPRODISPLAYSEMIBOLDITALIC.OTF');
+}
+@font-face {
+    font-family: sfprobold;
+    src: url('./font/SFPRODISPLAYBOLD.OTF');
+}
+@font-face {
+    font-family: sfmeduim;
+    src: url('./font/SFPRODISPLAYMEDIUM.OTF');
+}
+@font-face {
+    font-family: ItakilFs ;
+    src: url('./font/SFPRODISPLAYHEAVYITALIC.OTF');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+html{
+    font-size: 1vw;
+}
+
+.pLeftRight{
+    padding: 0 2rem;
+}
+
+
+.mainContainer{
+    width: 86.8vw;
+    padding: 1rem .7rem 0rem .7rem; 
+   
+}
+
+.logo img{
+    width: 10rem;
+}
+.location{
+    padding-left: .7rem;
+}
+.location img{
+    width: .9rem;
+    height: .9rem;
+}
+
+.address{
+    font-size: .8rem;
+}
+
+.address span img{
+    width: .5rem;
+}
+
+.searchBar input{
+    font-size: .8rem;
+    outline: none;
+    border: none;
+    color: grey;
+}
+.searchBar img{
+    width: 2.4rem;
+}
+
+.myCart img,
+.wishlist img{
+    width: .9rem;
+}
+
+.myCart span,
+.wishlist span{
+    font-size: .8rem;
+}
+.myaccount img{
+    width:.655rem;
+}
+.myAccountTxt{
+    font-size:.7rem;
+}
+.myAccountTxt img{
+    width: .5rem;
+}
+
+
+.heart{
+    position: relative;
+}
+
+.two{
+    position: absolute;
+    top: -.2rem;
+    right: -.3rem; 
+    color: #fff;
+    background-color: #FFBB44;
+    width: .7rem;
+    height: .7rem;
+    text-align: center;
+    border-radius: 50%; 
+    font-size: .5rem;   
+}
+.Carts{
+    position: relative;
+}
+
+.cartChild{
+    position: absolute;
+    top: -.1rem;
+    right: -.3rem; 
+    color: #fff;
+    background-color: #FFBB44;
+    width: .7rem;
+    height: .7rem;
+    text-align: center;
+    border-radius: 50%; 
+    font-size: .5rem;
+}
+
+.homicon img{
+    width: 1.4rem;
+}
+.add2txt{
+    margin-top: .2rem;
+}
+
+.Store{
+    font-size: .5rem;
+    margin-top: .3rem;
+}
+.add{
+    font-size: .6rem;
+}
+.more{
+    font-size: .5rem;
+    color: #3BD28C;
+    margin-top: .2rem;
+}
+.vegetable{
+    font-size: .8rem;
+    font-weight: 400;
+    color: black;
+}
+.backBlue{
+    background-color: #E9FAF3;
+    z-index: -3;
+    padding: .7rem 0 0 0;
+    position: relative;
+}
+
+.grid-2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    position: relative;
+}
+.groceryCoursel{
+    padding: 0 9rem;
+    text-align: left;
+    position: relative;
+}
+.courselHeading{
+    font-family: 'sfProDisplayRegular',sans-serif;
+}
+
+.courselHeading h1{
+    font-size: 3.5rem;
+    font-family: 'lightfspro',sans-serif;
+    font-weight: 800;
+    color: #222222;
+}  
+.boldd{
+    color: #3BD28C;
+    font-family: 'blacksapro',sans-serif ;
+} 
+
+.courselImg img{
+    height: 27rem;
+    width: 30rem;
+}
+
+.courselDesc{
+    font-family: 'sfProDisplayRegular',sans-serif;
+}
+.imgbrokali img{
+    height: 8rem;
+    position: absolute;
+    bottom: 0;
+    right: 12%;
+}
+
+.orderBtn{
+    padding: .8rem 2.4rem;
+    background-color: #FFBB44;
+    border-radius: 500px;
+    outline: none;
+    border: none;
+    text-align: center;
+    color: #fff;
+    font-family: 'semibold',sans-serif;
+}
+
+.courselImg{
+    position: relative;
+}
+
+.carrotImg img{
+    width: 8rem;
+    position: absolute;
+    top: 10%;
+    right: -4%;
+    overflow-x: hidden;
+}
+.btns{
+    position: absolute;
+    top: 50%;
+}
+.leftb{
+    position: absolute;
+    top: 40%;
+    left: 0;
+}
+.leftb img{
+    height: 5rem;
+    width: auto;
+}
+.rightb img{
+    height: 5rem;
+    width: auto;
+}
+.rightb{
+    position: absolute;
+    top: 40%;
+    right: 0;
+}
+
+.shopByC{
+    padding: 4rem 5rem 2rem 5rem;
+    background-color: #F9F9F9;
+}
+
+.shopByC h1{
+    font-family: 'sfprobold',sans-serif;
+}
+
+
+.sha{
+    border-radius: .9rem;
+}
+.sha img{
+    width: 3rem;
+    height: 5rem;
+}
+.shopping{
+    position: relative;
+}
+
+.left2{
+    position: absolute;
+    top: 58%;
+    right: -2.3%;
+}
+.right2{
+    position: absolute;
+    top: 58%;
+    left: 91%;
+}
+.right2 img,
+.left2 img{
+    height: 4rem;
+    width: 4rem;
+}
+
+.off{
+    padding: .6rem 1.4rem;
+    background-color: #3BD28C;
+    color: #fff;
+    border-radius: 500px;
+    text-align: center;
+    font-family: 'sfmeduim',sans-serif;
+}
+
+.ppp{
+    padding: 1rem;
+}
+
+.off1{
+    padding: .4rem .1rem;
+    background-color:#E1FFF1 ;
+    color: #3BD28C;
+    width: 5rem;
+    border-radius: 500px;
+    font-size: .7rem;
+    text-align: center;
+}
+.apple{
+    border-radius: .9rem;
+}
+
+.apple img{
+    height: 8rem;
+}
+.stars img{
+    width: .8rem;
+    height: 1rem;
+}
+.addToCartbtn{
+    padding: .2rem 0;
+    font-size: .8rem;
+    color: #fff;
+}
+.addToCartbtntxt{
+    padding: .5rem 2rem;
+    background-color: #FFBB44;
+    border-radius: 500px;
+}
+.addToCartbtn img{
+    height: 1rem;
+    width: 1rem;
+}
+.Snacks{
+    font-size: .7rem;
+    text-transform: uppercase;
+    color: #3BD28C;
+}
+.snacksDesc{
+    font-size: .9rem;
+    font-family: 'sfmeduim',sans-serif;
+}
+.dell{
+    font-family: 'sfprobold',sans-serif;
+    font-size: 1rem;
+}
+.imgTokri img{
+    height: 22rem;
+    width: 100%;
+}
+.bgSucess{
+    background-color: #3BD28C;
+}
+
+.textTokri{
+    padding: 0 0 0 4rem;
+}
+.SpecialO{
+    font-size: 2rem;
+    color: #fff;
+    font-family: 'lightfspro',sans-serif;
+    font-weight: 800;
+}
+.Fruitsve{
+    font-size: 3.5rem;
+    color: #fff;
+    font-family: 'lightfspro',sans-serif;
+    font-weight: 900;
+}
+.Dis20{
+    font-size: 3.5rem;
+    font-family: 'ItakilFs',sans-serif;
+    color: #fff;
+}
+.logoContainer{
+    border-radius: 1.5rem 1rem;
+    padding: 1rem;
+}
+.logoContainer img{
+    height: auto;
+    width: 6rem;
+    filter: grayscale(100%);
+}
+.StoriesMeal img{
+    width: 100%;
+    height: 100%;
+}
+.nameV{
+    font-size: .7rem;
+}
+
+.Date{
+    font-size: .7rem;
+    color: #BBBBBB;
+}
+.heal{
+    font-size: 1.2rem;
+    font-family: 'sfprobold',sans-serif;
+}
+
+.desc{
+    font-size: .7rem;
+}
+.readmore{
+    display: block; 
+}
+.dishmaker{
+    padding: 0 .7rem 0 .3rem;
+}
+.readmore{
+    font-size: .8rem;
+    color: #3BD28C;
+}
+.readmore img{
+    width: .8rem;
+    height: .8rem;
+}
+.how{
+    padding: 1.5rem  0 0 0;
+    font-size: 2.4rem;
+    font-family: 'sfprobold',sans-serif;
+}
+.Grocery{
+    color: #3BD28C;
+}
+.howcontainer{
+    padding: 2rem 6rem;
+    background-color: #F9F9F9;
+}
+.howImg img{
+    width: 3.5rem;
+    height: 3.5rem;
+}
+.howImg{
+    padding: 1rem 0;
+}
+.howTxt h3{
+    font-size: 1.3rem;
+    padding: .6rem 0;
+    color: #222222;
+    font-family: 'sfprobold',sans-serif;
+}
+.howTxt p{
+    font-size: .8rem;
+    color: #888888;
+    padding: 0 4rem ;
+}
+.phone img,
+.pco img,
+.mail img,
+.web img{
+    width: .8rem;
+    height: .8rem;
+}
+.phone ,
+.pco ,
+.mail ,
+.web {
+    font-size: .8rem;
+    color: #888888;
+}
+/* ` */
+
+.headerF{
+    font-size: 1.2rem;
+    font-family: 'sfprobold',sans-serif;
+    margin-bottom: .5rem;
+}
+.cities{
+    font-size: .8rem;
+    margin-bottom: .8rem;
+    color: #888888;
+}
+.logosFooter img{
+    width: 8rem;
+    height: auto;
+}
+
+.mbaa{
+    font-size: 1.2rem;
+    font-family: 'sfprobold',sans-serif;
+}
+.sites img{
+    width: 2rem;
+    height: 1.8rem;
+}
+
+.mtt{
+    margin-bottom: 1rem;
+}
+.hrrr{
+    color: #BBBBBB;
+    }
+.copy{
+    /* padding: .5rem; */
+    font-size: .7rem;
+    text-align: center;
+    color: #888888;
+}
