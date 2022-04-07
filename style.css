@@ -45,7 +45,7 @@ html{
 
 
 .mainContainer{
-    width: 86.8vw;
+    width: 100vw;
     padding: 1rem .7rem 0rem .7rem; 
    
 }
@@ -54,7 +54,7 @@ html{
     width: 10rem;
 }
 .location{
-    padding-left: .7rem;
+    padding-left: 2.2rem;
 }
 .location img{
     width: .9rem;
@@ -174,7 +174,7 @@ html{
     position: relative;
 }
 .courselHeading{
-    font-family: 'sfProDisplayRegular',sans-serif;
+    font-family: 'sfprobold',sans-serif;
 }
 
 .courselHeading h1{
@@ -211,7 +211,7 @@ html{
     border: none;
     text-align: center;
     color: #fff;
-    font-family: 'semibold',sans-serif;
+    font-family: 'sfprobold',sans-serif;
 }
 
 .courselImg{
@@ -222,7 +222,7 @@ html{
     width: 8rem;
     position: absolute;
     top: 10%;
-    right: -4%;
+    right: -2.6%;
     overflow-x: hidden;
 }
 .btns{
@@ -232,20 +232,28 @@ html{
 .leftb{
     position: absolute;
     top: 40%;
-    left: 0;
+    left: .2rem;
+    padding: 2rem 1rem;
+    background-color: #fff;
+    border-radius: .4rem;
 }
+
 .leftb img{
-    height: 5rem;
+    height: 1rem;
     width: auto;
+
 }
 .rightb img{
-    height: 5rem;
+    height: 1rem;
     width: auto;
 }
 .rightb{
     position: absolute;
     top: 40%;
-    right: 0;
+    right: .8rem;
+    padding: 2rem 1rem;
+    background-color: #fff;
+    border-radius: .4rem;
 }
 
 .shopByC{
@@ -277,7 +285,7 @@ html{
 .right2{
     position: absolute;
     top: 58%;
-    left: 91%;
+    left: 92.2%;
 }
 .right2 img,
 .left2 img{
